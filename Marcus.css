@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navMain{
+    height: 17vh;
+    width: 99%;
+    margin-left: 9px;
+    background-color: firebrick;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin-bottom: 7vh;
+    margin-top: 3vh;
+}
+.navi{
+    margin-top: 1.3pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.navi > a{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.navi >a:hover{
+    background-color: coral;
+    border-radius: 10px;
+    padding: 5px;
+}
+.h2nav{
+    display:flex;
+    justify-content: center;
+    padding-top: 1pc;
+    font-size: 35px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    color: firebrick;
+    font-weight: bold;
+    margin-top: 18vh;
+}
+.introh2{
+    font-size: 54px;
+    cursor: default;
+    transition: 0.3s ease-in-out;
+}
+.introh2:hover{
+    color:coral;
+}
+.introh2-2{
+    font-size: 58px;
+    margin-bottom: 3vh;
+    cursor: default;
+    transition: 0.3s ease-in-out;
+}
+.introh2-2:hover{
+    color:coral;
+}
+.p-1{
+    font-size: 20px;
+    color: black;
+    cursor: default;
+}
+.skills{
+    margin-top: 38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.skillh2{
+    color: firebrick;
+    font-size: 58px;
+    cursor: default;
+    transition: 0.3s ease-in-out;
+}
+.skillh2:hover{
+    color:coral;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: firebrick;
+    border-radius: 25px;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: firebrick;
+    border-radius: 25px;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: firebrick;
+    border-radius: 25px;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+.box1:hover{
+    height: 365px;
+    width: 315px;
+    background-color:coral;
+}
+.box2:hover{
+    height: 365px;
+    width: 315px;
+    background-color:coral;
+
+}
+.box3:hover{
+    height: 365px;
+    width: 315px;   
+    background-color:coral;
+}
+.h22{
+    margin-top: 2vh;
+    color: antiquewhite;
+    cursor: default;
+}
+.boxP1{
+    color: antiquewhite;
+    margin-top: 15vh;
+    cursor: default;
+}
+.boxP{
+    color: antiquewhite;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacth2{
+    margin-top: 30vh;
+    color: firebrick;
+    font-size: 58px;
+    cursor: default;   
+    transition: 0.3s ease-in-out;
+}
+.contacth2:hover{
+    color:coral;
+}
+.atop{
+    margin-top: 7vh;
+    color: firebrick;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.abot{
+    color: firebrick;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.abot1{
+    color: firebrick;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 25vh;
+    transition: 0.2s ease-in-out;   
+}
+.atop:hover{
+    text-decoration: underline;
+    color:coral;
+}
+.abot:hover{
+    text-decoration: underline;
+    color:coral;    
+}
+.abot1:hover{
+    text-decoration: underline;
+    color:coral;
+}
